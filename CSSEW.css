@@ -1,6 +1,6 @@
 @media screen and (max-width: 580px) {
-    .pimg1, .pimg2, .pimg3, .pimg4{
-        background-attachment:scroll;
+    .pimg1, .pimg2{
+        background-attachment:fixed;
     }
     .pimg1{
         height: auto;
@@ -9,7 +9,7 @@
     }
     .navright{
         display: block;
-        margin-top: 150px;
+        margin:auto;
         position: absolute;
         left: -15px;
         background-color: #f4f4f4;
@@ -27,6 +27,14 @@
     iframe{
         width: 100%;
         max-height: 300px;
+    }
+    .ctwogallery{
+        padding: 20px;
+    }
+    .ctwogallery .col2left, .col2mid, .col2right{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
     }
 }
 h2{
@@ -123,10 +131,12 @@ section{
 }
 .pimg1{
     background-image: url("./Photos/asd.jpg");
+    background-size: cover;
     min-height: 100%;
 }
 .pimg2{
     background-image: url("./Photos/teams.jpg");
+    background-size: cover;
     min-height: 400px;
 }
 
@@ -237,14 +247,13 @@ button:hover{
 
 .ctwogallery{
     margin-top: 100px;
-    max-width: 900px;
+    max-width: 920px;
     margin: auto;
 }
 .col2mid{    
     width: 287px;
     height: 200px;
     float: left;
-    text-align: center;
     margin: auto;
     border: 10px solid white;
 }
@@ -252,19 +261,15 @@ button:hover{
     width: 286px;
     height: 200px;
     float: left;
-    text-align: center;
     margin: auto;
     border: 10px solid white;
-    border-left: none;
 }
 .col2right{
     width: 287px;
     height: 200px;
     float: left;
-    text-align: center;
     margin: auto;
     border: 10px solid white;
-    border-right: none;
 }
 .cft{
     position: relative;
