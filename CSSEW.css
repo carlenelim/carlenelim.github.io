@@ -1,6 +1,6 @@
 @media screen and (max-width: 580px) {
     .pimg1, .pimg2{
-        background-attachment:fixed;
+        background-attachment:scroll;
     }
     .pimg1{
         height: auto;
@@ -31,7 +31,17 @@
     .ctwogallery{
         padding: 20px;
     }
-    .ctwogallery .col2left, .col2mid, .col2right{
+    .ctwogallery .col2left{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .ctwogallery .col2mid  {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .ctwogallery .col2right{
         position: relative;
         left: 50%;
         transform: translate(-50%);
