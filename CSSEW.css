@@ -1,0 +1,333 @@
+@media screen and (max-width: 580px) {
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment:scroll;
+    }
+    .pimg1{
+        height: auto;
+        display: flex;
+        object-fit: contain;
+    }
+    .navright{
+        display: block;
+        margin-top: 150px;
+        position: absolute;
+        left: -15px;
+        background-color: #f4f4f4;
+        width: 100%;
+        margin-top: 90px;
+    }
+    section{
+        text-align: center;
+        padding: 50px 20%;
+    }   
+    .logo a img{
+        position: relative;
+        left: -5%;
+    }
+    iframe{
+        width: 100%;
+        max-height: 300px;
+    }
+}
+h2{
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;
+}
+body,html{
+    height:100%;
+    margin: auto;
+    font-size: 18;
+    font-family: "Leto" sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    scroll-behavior: smooth;
+    scroll-snap-stop: always;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15px;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 8px;
+}
+.ptext .border{
+    color: white;
+    padding: 20px;
+    font-size: 34px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+    color: white;
+}
+/*navigation*/
+.navbarcarlene a{
+    color: #970013;
+}
+.navbarcarlene{
+    position: fixed;
+    opacity: 0.8;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 80px;
+}
+.navright{
+    display: flex;
+    list-style: none;
+    margin-right: 15%;
+}
+.navright a:hover{
+    color:#5353D9;
+}
+.logo {
+    flex: auto;
+    margin-left: 10%;
+    left: 20%;
+}
+/*section*/
+section{
+    text-align: center;
+    padding: 50px 10px;
+}
+
+.section-light{
+    background-color: white;
+    color: black;
+    min-height: 300px;
+}
+.section-light h2{
+    margin-top: 50px;
+}
+.section-light p{
+    padding: 0 50px 0 50px;
+}
+
+/*background*/
+.pimg1, .pimg2{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url("./Photos/asd.jpg");
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url("./Photos/teams.jpg");
+    min-height: 400px;
+}
+
+.subtheme{
+    display: block;
+    margin-top: 30px;
+    color: #f4f4f4;
+}
+.textlight{
+    max-width: 750px;
+    position: relative;
+    margin-top: 170px;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-60%);
+}
+.three{
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    max-width: 1920px;
+}
+.three .col{
+    max-width:360px;
+    height: 200px;
+    float: left;
+    margin: 30px 7% 100px 7%;
+    text-align: justify;
+}
+.threecol button{
+    margin-bottom :50px;
+}
+.logoteamsthreecol{
+    float:left;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.logothreecol{
+    width: 35px;
+    margin-left: -20px;
+    padding: 5px;
+}
+.three h5{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+footer{
+    height: 45px;
+    text-align: center;
+    align-self: center;
+    padding-top: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: #72000f;
+    position: relative;
+    bottom: 0;
+}
+
+button{
+    margin-top: 30px;
+    background-color:#72000f;
+    color: white;
+    height: 60px;
+    width: fit-content;
+    border-radius: 30px;
+    font-size: 18px;
+    padding:10px 50px;
+    text-transform: uppercase;
+    border: none;
+}
+
+button:hover{
+    background-color: orange;
+    transition: background 1s ease-in-out;
+}
+
+.cone{
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+.cone .ptext{
+    margin-top: -50px;
+}
+
+
+.animation{
+    width: 704px;
+    height: 396px;
+    margin-top:20px;   
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    animation: slider 12s infinite linear;
+    background-size: 100% 100%;
+}
+@keyframes slider{
+    0%{background-image: url("./Photos/EWtahunlalu.jpg")}
+    35%{background-image: url("./Photos/pexels-billel-moula-540518.jpg")}
+    75%{background-image: url("./Photos/pexels-anton-atanasov-1655901.jpg")}
+    85%{background-image: url("./Photos/pexels-pixabay-262738.jpg")}
+}
+
+.ctwogallery{
+    margin-top: 100px;
+    max-width: 900px;
+    margin: auto;
+}
+.col2mid{    
+    width: 287px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin: auto;
+    border: 10px solid white;
+}
+.col2left{    
+    width: 286px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin: auto;
+    border: 10px solid white;
+    border-left: none;
+}
+.col2right{
+    width: 287px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin: auto;
+    border: 10px solid white;
+    border-right: none;
+}
+.cft{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.textteams{
+    max-width: 900px;
+    margin-top: 30px;
+}
+.textteams h3{
+    margin-bottom: -10px;
+    padding-top: 120px;
+}
+.textteams img{
+    margin-top: 10px;
+    margin-bottom: -18px;
+}
+.w3-content .w3-display-container{
+    float: left;
+}
+
+.wow{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: -150px;
+    position: relative;
+    max-width: 900px;
+}
+.woah{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    max-width: 900px;
+}
+iframe{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    margin: 3px;
+    text-decoration: none;
+    display: block;
+}
+.navright .dropa:hover .dropdown-content {
+    display: block;
+}
+  
+.navright .dropa .dropdown-content .dd{
+    columns: 2;
+    margin: auto;
+}
