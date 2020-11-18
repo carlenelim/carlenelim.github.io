@@ -1,11 +1,11 @@
 @media screen and (max-width: 580px) {
     .pimg1, .pimg2{
         background-attachment:scroll;
+        
     }
     .pimg1{
         height: auto;
         display: flex;
-        object-fit: contain;
     }
     .navright{
         display: block;
@@ -31,21 +31,15 @@
     .ctwogallery{
         padding: 20px;
     }
-    .ctwogallery .col2left{
+    .ctwogallery .col2left, .col2mid, .col2right{
         position: relative;
         left: 50%;
         transform: translate(-50%);
     }
-    .ctwogallery .col2mid  {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    .ctwogallery .col2right{
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
-    }
+}
+.four button{
+    margin-bottom: 50px;
+    margin: auto;
 }
 h2{
     text-align: center;
@@ -141,12 +135,10 @@ section{
 }
 .pimg1{
     background-image: url("./Photos/asd.jpg");
-    background-size: cover;
     min-height: 100%;
 }
 .pimg2{
     background-image: url("./Photos/teams.jpg");
-    background-size: cover;
     min-height: 400px;
 }
 
@@ -169,13 +161,13 @@ section{
     display: flex;
     position: relative;
     background-color: #ffffff;
-    max-width: 1920px;
+    max-width: 1890px;
 }
 .three .col{
-    max-width:360px;
+    max-width:340px;
     height: 200px;
     float: left;
-    margin: 30px 7% 100px 7%;
+    margin: 30px 6% 100px 7%;
     text-align: justify;
 }
 .threecol button{
@@ -196,6 +188,12 @@ section{
     font-size: 20px;
     padding: 10px;
     margin-right: 10px;
+}
+.three button{
+    margin-top: -40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 footer{
     height: 45px;
@@ -324,6 +322,7 @@ iframe{
 }
 
 .dropdown-content {
+    padding-right: 10px;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -335,6 +334,7 @@ iframe{
     color: black;
     padding: 10px 5px;
     margin: 3px;
+    margin-right: 10px;
     text-decoration: none;
     display: block;
 }
