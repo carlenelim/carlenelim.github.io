@@ -31,7 +31,7 @@
     .ctwogallery{
         padding: 20px;
     }
-    .ctwogallery .col2left, .col2mid, .col2right{
+    .ctwogallery .col2left1, .col2left2, .col2mid1,.col2mid2, .col2right1, .col2right2{
         position: relative;
         left: 50%;
         transform: translate(-50%);
@@ -77,8 +77,10 @@ a{
     font-size: 34px;
 }
 .ptext .border.trans{
-    background-color: transparent;
-    color: white;
+	background-color: transparent;
+	color: white;
+	text-transform: none;
+	text-shadow: 0px 0px #000000;
 }
 /*navigation*/
 .navbarcarlene a{
@@ -258,21 +260,42 @@ button:hover{
     max-width: 920px;
     margin: auto;
 }
-.col2mid{    
+.col2mid1{    
     width: 287px;
     height: 200px;
     float: left;
     margin: auto;
     border: 10px solid white;
 }
-.col2left{    
+.col2mid2{    
+    width: 287px;
+    height: 200px;
+    float: left;
+    margin: auto;
+    border: 10px solid white;
+}
+.col2left1{    
     width: 286px;
     height: 200px;
     float: left;
     margin: auto;
     border: 10px solid white;
 }
-.col2right{
+.col2left2{    
+    width: 286px;
+    height: 200px;
+    float: left;
+    margin: auto;
+    border: 10px solid white;
+}
+.col2right1{
+    width: 286px;
+    height: 200px;
+    float: left;
+    margin: auto;
+    border: 10px solid white;
+}
+.col2right2{
     width: 287px;
     height: 200px;
     float: left;
@@ -290,8 +313,9 @@ button:hover{
     margin-top: 30px;
 }
 .textteams h3{
-    margin-bottom: -10px;
-    padding-top: 120px;
+	margin-bottom: -10px;
+	padding-top: 120px;
+	margin-top: 14px;
 }
 .textteams img{
     margin-top: 10px;
