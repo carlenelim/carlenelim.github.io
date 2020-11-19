@@ -36,6 +36,21 @@
         left: 50%;
         transform: translate(-50%);
     }
+    .navbarcarlene{
+        position: fixed;
+        opacity: 0.8;
+        top: 0;
+        display: flex;
+        align-items: center;
+        background-color: #f4f4f4;
+        max-width: 580px;
+        height: 80px;
+    }
+    .ctwogallery{
+        max-width: 580px;
+
+
+    }
 }
 .four button{
     margin-bottom: 50px;
