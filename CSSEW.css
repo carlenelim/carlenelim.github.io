@@ -108,7 +108,7 @@ a{
     letter-spacing: 8px;
 }
 .ptext .border{
-    color: white;
+    color: #000000;
     padding: 20px;
     font-size: 34px;
 }
@@ -172,7 +172,7 @@ section{
     background-attachment: fixed;
 }
 .pimg1{
-    background-image: url("./Photos/asd.jpg");
+    background-image: url("./Photos/PosterwLogo.jpg");
     min-height: 100%;
 }
 .pimg2{
@@ -285,10 +285,10 @@ button:hover{
     background-size: 100% 100%;
 }
 @keyframes slider{
-    0%{background-image: url("./Photos/EWtahunlalu.jpg")}
-    35%{background-image: url("./Photos/pexels-billel-moula-540518.jpg")}
-    75%{background-image: url("./Photos/pexels-anton-atanasov-1655901.jpg")}
-    85%{background-image: url("./Photos/pexels-pixabay-262738.jpg")}
+    0%{background-image: url("./Photos/past_ew_(0).jpg")}
+    35%{background-image: url("./Photos/past_ew_(1).jpg")}
+    75%{background-image: url("./Photos/past_ew_(2).jpg")}
+    85%{background-image: url("./Photos/past_ew_(3).jpg")}
 }
 
 .ctwogallery{
