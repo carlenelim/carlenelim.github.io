@@ -1,7 +1,16 @@
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 960px) {
+    .logo a img{
+        position: relative;
+        width: 120px;
+        left: -5%;
+    }
+    .navright a{
+        font-size: 14px;
+    }
+}
+    @media screen and (max-width: 580px) {
     .pimg1, .pimg2{
         background-attachment:scroll;
-        
     }
     .pimg1{
         height: auto;
@@ -12,9 +21,15 @@
         margin:auto;
         position: absolute;
         left: -15px;
+        width: 580px;
         background-color: #f4f4f4;
-        width: 100%;
         margin-top: 90px;
+    }
+    .navbarcarlene .logo{
+        margin-left: 120px;
+    }
+    .navright a{
+        margin-left: 50px;
     }
     section{
         text-align: center;
@@ -25,10 +40,15 @@
         left: -5%;
     }
     iframe{
-        width: 100%;
+        width: 500px;
         max-height: 300px;
+        margin-bottom: 80px;
+    }
+    .textteams p{
+        width: 500px;
     }
     .ctwogallery{
+        width: 560px;
         padding: 20px;
     }
     .ctwogallery .col2left1, .col2left2, .col2mid1,.col2mid2, .col2right1, .col2right2{
@@ -46,7 +66,6 @@
         max-width: 580px;
         height: 80px;
         width: 100%;
-
     }
     .ctwogallery{
         max-width: 580px;
@@ -111,7 +130,7 @@ a{
     align-items: center;
     background-color: #f4f4f4;
     width: 100%;
-    height: 80px;
+    height: 90px;
 }
 .navright{
     display: flex;
@@ -256,8 +275,8 @@ button:hover{
 
 
 .animation{
-    width: 704px;
-    height: 396px;
+    width: 480px;
+    height: 350px;
     margin-top:20px;   
     position: relative;
     left: 50%;
@@ -325,19 +344,6 @@ button:hover{
     width: 100%;
 }
 
-.textteams{
-    max-width: 900px;
-    margin-top: 30px;
-}
-.textteams h3{
-	margin-bottom: -10px;
-	padding-top: 120px;
-	margin-top: 14px;
-}
-.textteams img{
-    margin-top: 10px;
-    margin-bottom: -18px;
-}
 .w3-content .w3-display-container{
     float: left;
 }
@@ -386,4 +392,44 @@ iframe{
 .navright .dropa .dropdown-content .dd{
     columns: 2;
     margin: auto;
+}
+.logocat{
+    width: 100px;
+}
+.textteams a{
+    height: 50px;
+}
+.textteams .logocat{
+    margin-top: 100px;
+}
+.textteamsheader{
+    min-height: 200px;
+    max-width: 300px;
+    margin: 70px 0 50px 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.textteamsleft{
+    float: left;
+}
+.textteams{
+    max-width: 900px;
+    margin-top: 30px;
+}
+.textteams h3{
+	margin-bottom: -10px;
+	padding-top: 120px;
+	margin-top: -75px;
+}
+.textteams img{
+    margin-top: 10px;
+    margin-bottom: -18px;
+}
+.rightleft{
+    float: left;
+    margin-right: -50px;
+}
+.rightright{
+    margin-top: 10px;
 }
