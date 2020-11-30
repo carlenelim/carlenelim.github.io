@@ -9,8 +9,10 @@
     }
 }
     @media screen and (max-width: 580px) {
+
     .pimg1, .pimg2{
         background-attachment:scroll;
+        overflow: hidden;
     }
     .pimg1{
         height: auto;
@@ -31,30 +33,34 @@
     .navright a{
         margin-left: 25px;
     }
-    section{
-        text-align: center;
-        padding: 50px 20%;
-    }   
     .logo a img{
         position: relative;
         left: -5%;
     }
+    .asd{
+        overflow: hidden;
+    }
     iframe{
-        width: 500px;
+        max-width: 450px;
         max-height: 300px;
         margin-bottom: 80px;
+        margin-left: -45px;
+        overflow: hidden;
     }
     .textteams p{
-        width: 500px;
+        max-width: 450px;
+        overflow: hidden;
     }
     .ctwogallery{
-        width: 560px;
+        width: 500px;
+        overflow: hidden;
         padding: 20px;
     }
     .ctwogallery .col2left1, .col2left2, .col2mid1,.col2mid2, .col2right1, .col2right2{
         position: relative;
         left: 50%;
         transform: translate(-50%);
+        overflow: hidden;
     }
     .navbarcarlene{
         position: fixed;
@@ -165,6 +171,7 @@ section{
 
 /*background*/
 .pimg1, .pimg2{
+    background-image: url("./Photos/PosterwoLogo.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
@@ -172,11 +179,9 @@ section{
     background-attachment: fixed;
 }
 .pimg1{
-    background-image: url("./Photos/PosterwoLogo.jpg");
     min-height: 100%;
 }
 .pimg2{
-    background-image: url("./Photos/PosterwoLogo.jpg");
     min-height: 400px;
 }
 
@@ -406,7 +411,7 @@ iframe{
 }
 .textteamsheader{
     min-height: 200px;
-    max-width: 300px;
+    max-width: 400px;
     margin: 70px 0 50px 0;
     position: relative;
     left: 50%;
@@ -434,4 +439,15 @@ iframe{
 }
 .rightright{
     margin-top: 10px;
+}
+.asd{
+    overflow: hidden;
+}
+.threecol p{
+    font-size: 18px;
+}
+.top{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
 }
