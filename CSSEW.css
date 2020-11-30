@@ -9,11 +9,14 @@
     }
 }
     @media screen and (max-width: 580px) {
-
-    .pimg1, .pimg2{
-        background-attachment:scroll;
-        overflow: hidden;
-    }
+        .pimg1, .pimg2{
+            background-image: url("./Photos/panjang.png");
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
     .pimg1{
         height: auto;
         display: flex;
@@ -41,7 +44,7 @@
         overflow: hidden;
     }
     iframe{
-        max-width: 450px;
+        max-width: 430px;
         max-height: 300px;
         margin-bottom: 80px;
         margin-left: -45px;
@@ -171,7 +174,7 @@ section{
 
 /*background*/
 .pimg1, .pimg2{
-    background-image: url("./Photos/PosterwoLogo.jpg");
+    background-image: url("./Photos/PosterwoLogo.png");
     position: relative;
     background-position: center;
     background-size: contain;
