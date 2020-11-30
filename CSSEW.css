@@ -52,7 +52,7 @@
         overflow: hidden;
     }
     .ctwogallery{
-        width: 500px;
+        max-width: 430px;
         overflow: hidden;
         padding: 20px;
     }
