@@ -174,7 +174,7 @@ section{
     background-image: url("./Photos/PosterwoLogo.jpg");
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
