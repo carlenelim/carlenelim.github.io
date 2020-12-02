@@ -47,7 +47,7 @@
         max-width: 430px;
         max-height: 300px;
         margin-bottom: 80px;
-        margin-left: -45px;
+        margin-left: 0px;
         overflow: hidden;
     }
     .textteams p{
@@ -213,7 +213,7 @@ section{
     width:340px;
     height: 200px;
     float: left;
-    margin: 30px 6% 100px 7%;
+    margin: 30px 6% 120px 7%;
     text-align: justify;
 }
 
@@ -347,12 +347,15 @@ button:hover{
     margin: auto;
     border: 10px solid white;
 }
+
 .cft{
     position: relative;
     bottom: 0;
     width: 100%;
 }
-
+.col p{
+    font-size: 16px;
+}
 .w3-content .w3-display-container{
     float: left;
 }
